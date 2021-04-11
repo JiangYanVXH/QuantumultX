@@ -3,7 +3,6 @@
 # https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Apple_CDN.list
 # https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Apple_API.list
 
-# Apple API
 DOMAIN,apple.comscoreresearch.com,APPLE
 DOMAIN-SUFFIX,aaplimg.com,APPLE
 DOMAIN-SUFFIX,akadns.net,APPLE
@@ -17,44 +16,30 @@ DOMAIN-SUFFIX,icloud.com,APPLE
 DOMAIN-SUFFIX,icloud-content.com,APPLE
 DOMAIN-SUFFIX,itunes.com,APPLE
 DOMAIN-SUFFIX,me.com,APPLE
-IP-CIDR,17.0.0.0/8,APPLE
-IP-CIDR,63.92.224.0/19,APPLE
-IP-CIDR,65.199.22.0/23,APPLE
-IP-CIDR,139.178.128.0/18,APPLE
-IP-CIDR,144.178.0.0/19,APPLE
-IP-CIDR,144.178.36.0/22,APPLE
-IP-CIDR,144.178.48.0/20,APPLE
-IP-CIDR,192.35.50.0/24,APPLE
-IP-CIDR,198.183.17.0/24,APPLE
-IP-CIDR,205.180.175.0/24,APPLE
-
-# Apple News
+IP-CIDR,17.0.0.0/8,Apple
+IP-CIDR,63.92.224.0/19,Apple
+IP-CIDR,65.199.22.0/23,Apple
+IP-CIDR,139.178.128.0/18,Apple
+IP-CIDR,144.178.0.0/19,Apple
+IP-CIDR,192.35.50.0/24,Apple
+IP-CIDR,198.183.17.0/24,Apple
+IP-CIDR,205.180.175.0/24,Apple
 DOMAIN-SUFFIX,apple.news,APPLE
-
-# shazam
 DOMAIN-SUFFIX,shazam.com,APPLE
-
-# Apple Music
 DOMAIN,aod.itunes.apple.com,APPLE
 DOMAIN,api.smoot.apple.cn,APPLE
 DOMAIN,music.apple.com,APPLE
 DOMAIN,mvod.itunes.apple.com,APPLE
-
-# App Store
 DOMAIN-SUFFIX,appstore.com,APPLE
 USER-AGENT,com.apple.appstored*,APPLE
 PROCESS-NAME,storedownloadd,APPLE
 DOMAIN-SUFFIX,mzstatic.com,APPLE
 DOMAIN,iosapps.itunes.apple.com,APPLE
 DOMAIN,osxapps.itunes.apple.com,APPLE
-
-# Update
 DOMAIN,supportdownload.apple.com,APPLE
 DOMAIN,appldnld.apple.com,APPLE
 DOMAIN,swcdn.apple.com,APPLE
 DOMAIN,apptrailers.itunes.apple.com,APPLE
 DOMAIN,updates-http.cdn-apple.com,APPLE
-
-# Map
 DOMAIN-SUFFIX,ls.apple.com,APPLE
 DOMAIN,gs-loc-cn.apple.com,APPLE
