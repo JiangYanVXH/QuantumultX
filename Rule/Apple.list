@@ -1,21 +1,18 @@
-# 苹果服务
-# https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
-# https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Apple_CDN.list
-# https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Apple_API.list
-
-DOMAIN,apple.comscoreresearch.com,APPLE
-DOMAIN-SUFFIX,aaplimg.com,APPLE
-DOMAIN-SUFFIX,akadns.net,APPLE
-DOMAIN-SUFFIX,apple-cloudkit.com,APPLE
-DOMAIN-SUFFIX,apple.co,APPLE
-DOMAIN-SUFFIX,apple.com,APPLE
-DOMAIN-SUFFIX,appsto.re,APPLE
-DOMAIN-SUFFIX,cdn-apple.com,APPLE
-DOMAIN-SUFFIX,crashlytics.com,APPLE
-DOMAIN-SUFFIX,icloud.com,APPLE
-DOMAIN-SUFFIX,icloud-content.com,APPLE
-DOMAIN-SUFFIX,itunes.com,APPLE
-DOMAIN-SUFFIX,me.com,APPLE
+# Apple
+DOMAIN-SUFFIX,aaplimg.com,Apple
+DOMAIN-SUFFIX,apple.co,Apple
+DOMAIN-SUFFIX,apple.com,Apple
+DOMAIN-SUFFIX,apple.com.cn,Apple
+DOMAIN-SUFFIX,apple-cloudkit.com,Apple
+DOMAIN-SUFFIX,appstore.com,Apple
+DOMAIN-SUFFIX,cdn-apple.com,Apple
+DOMAIN-SUFFIX,icloud.com,Apple
+DOMAIN-SUFFIX,icloud.com.cn,Apple
+DOMAIN-SUFFIX,icloud-content.com,Apple
+DOMAIN-SUFFIX,me.com,Apple
+DOMAIN-SUFFIX,mzstatic.com,Apple
+DOMAIN-KEYWORD,apple.com.akadns.net,Apple
+DOMAIN-KEYWORD,icloud.com.akadns.net,Apple
 IP-CIDR,17.0.0.0/8,Apple
 IP-CIDR,63.92.224.0/19,Apple
 IP-CIDR,65.199.22.0/23,Apple
@@ -24,22 +21,3 @@ IP-CIDR,144.178.0.0/19,Apple
 IP-CIDR,192.35.50.0/24,Apple
 IP-CIDR,198.183.17.0/24,Apple
 IP-CIDR,205.180.175.0/24,Apple
-DOMAIN-SUFFIX,apple.news,APPLE
-DOMAIN-SUFFIX,shazam.com,APPLE
-DOMAIN,aod.itunes.apple.com,APPLE
-DOMAIN,api.smoot.apple.cn,APPLE
-DOMAIN,music.apple.com,APPLE
-DOMAIN,mvod.itunes.apple.com,APPLE
-DOMAIN-SUFFIX,appstore.com,APPLE
-USER-AGENT,com.apple.appstored*,APPLE
-PROCESS-NAME,storedownloadd,APPLE
-DOMAIN-SUFFIX,mzstatic.com,APPLE
-DOMAIN,iosapps.itunes.apple.com,APPLE
-DOMAIN,osxapps.itunes.apple.com,APPLE
-DOMAIN,supportdownload.apple.com,APPLE
-DOMAIN,appldnld.apple.com,APPLE
-DOMAIN,swcdn.apple.com,APPLE
-DOMAIN,apptrailers.itunes.apple.com,APPLE
-DOMAIN,updates-http.cdn-apple.com,APPLE
-DOMAIN-SUFFIX,ls.apple.com,APPLE
-DOMAIN,gs-loc-cn.apple.com,APPLE
